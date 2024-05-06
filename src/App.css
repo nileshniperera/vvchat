@@ -1,0 +1,98 @@
+button {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.399);
+}
+
+.image-preview {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    background: white;
+    border-radius: 10px;
+    padding: 0.125rem 0.5rem;
+    border: 2px solid purple;
+}
+
+.avatar-img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.view-healthbot-tile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sidenav {
+    width: 40%;
+    padding-top: 3.5rem;
+}
+
+.main {
+    overflow-y: auto;
+    width: 60%;
+    /* padding-top: 5rem; */
+    padding-left: 15rem;
+}
+
+.feed-container .main {
+    /* padding-top: 2rem; */
+}
+
+.side-nav-wrapper {
+    width: 100%;
+    padding: 0.5rem 0 0.75rem 2rem;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.app-container {
+    height: 100dvh;
+}
+
+.header {
+    position: fixed;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.header.non-bordered {
+    border: none;
+}
+
+.header.hidden {
+    display: none;
+}
+
+.header a {
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+}
+
+.header a:hover {
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+}
+
+.header a.active {
+    font-weight: 600;
+}
+
+.feed-container {
+    height: 100dvh;
+    overflow: hidden;
+}
+
+.feed-bottom-padding {
+    height: 20rem;
+}

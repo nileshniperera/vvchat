@@ -1,0 +1,116 @@
+.onboarding {
+    margin: 4rem 0 0 4rem;
+}
+
+.onboarding h1 {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.onboarding h1 span {
+    font-size: x-large;
+    font-weight: 400;
+}
+
+.ob-section {
+    margin: 1rem 0;
+    font-size: x-large;
+}
+
+.role-btn-list {
+    padding: 1.5rem 0;
+    display: flex;
+    gap: 0.5rem;
+    font-size: large;
+}
+
+.role-btn-list button {
+    margin: 0;
+    border: none;
+    padding: 0.4rem 1rem;
+    border-radius: 50px;
+}
+
+.role-btn-list button:hover {
+    background-color: white;
+}
+
+.role-btn-list button.active {
+    background-color: #0066ff;
+    color: white;
+}
+
+.user-bio {
+    padding: 0.5rem;
+    outline: none;
+    margin-top: 1rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    height: 4rem;
+    resize: none;
+    font-size: large;
+    width: 30rem;
+}
+
+.image-select {
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.image-select img,
+.image-select div {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+}
+
+.image-select img:hover {
+    transform: scale(1.15);
+    border: 4px solid #0066ff4c;
+}
+
+.image-select img.active {
+    transform: scale(1.15);
+    border: 4px solid #0066ff;
+}
+
+.image-select p {
+    display: none;
+}
+
+.image-select div div {
+    margin-top: 0;
+}
+
+.image-select div.active:hover {
+}
+
+.image-select div.file:hover div {
+    transform: scale(1.05);
+    outline: 4px solid #0066ff4c;
+    border: none;
+}
+.image-select div.active div {
+    transform: scale(1.05);
+    outline: 4px solid #0066ff;
+    border: none;
+}
+
+.onboard-me {
+    background-color: #0066ff;
+    border: none;
+    border-radius: 50px;
+    padding: 0.75rem 3rem 0.75rem 1rem;
+    color: white;
+}
+
+.onboard-me:hover {
+    background-color: #0066ff;
+}
+
+.onboard-me:disabled {
+    cursor: not-allowed;
+    background-color: #d0d0d0;
+}

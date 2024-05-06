@@ -1,0 +1,42 @@
+.message-window {
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    /* border: 1px solid red; */
+}
+
+.sent {
+    flex-direction: row-reverse;
+}
+
+.sent p,
+.received p {
+    margin: 0 1rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+}
+
+.sent p {
+    color: white;
+    background: #0b93f6;
+}
+.received p {
+    background: #e5e5ea;
+    color: black;
+}
+
+.message-pf {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100px;
+}
+
+.chat-message-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

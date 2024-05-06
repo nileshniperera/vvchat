@@ -1,0 +1,79 @@
+.seeker-guild-list {
+    padding-bottom: 1rem;
+}
+
+.seeker-guild-prompt {
+    margin-bottom: 2rem;
+}
+
+.guild-tile {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+.guild-tile img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.guild-lbls {
+    display: flex;
+    flex-direction: column;
+}
+
+.guild-lbls .name {
+    font-size: large;
+    font-weight: 500;
+}
+
+.guild-lbls .subject {
+    font-weight: 300;
+}
+
+.guild-btns {
+    display: flex;
+    gap: 1rem;
+}
+
+.guild-btns button {
+    border: none;
+    background-color: #0066ff98;
+    color: white;
+    border-radius: 50px;
+    padding: 0.25rem 0.75rem;
+}
+
+.guild-btns button:hover {
+    background-color: #0066ffcc;
+}
+
+.guild-btns button.remove {
+    background-color: #e4373798;
+}
+
+.guild-btns button.remove:hover {
+    background-color: #e43737e2;
+}
+
+.member-tile {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.modal-content-2 {
+}
+
+.guild-image-add {
+    font-weight: 500;
+    font-size: medium;
+}
+
+.create-new-guild-text:hover {
+    color: #0066ff;
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,181 @@
+.post {
+    margin: 2rem 1rem 2rem 0;
+    padding: 2rem 0 3rem 1.5rem;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in;
+}
+
+.post:hover {
+    background-color: rgba(242, 242, 242, 0.536);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    padding-right: 5rem;
+    position: relative;
+}
+
+.post-settings {
+    display: none;
+}
+
+.post-settings.active {
+    display: block;
+    position: absolute;
+    background-color: rgb(234, 234, 234);
+    right: 5rem;
+    top: 0;
+    width: 15rem;
+    border-radius: 5px;
+    padding-bottom: 1rem;
+}
+
+.post-s-header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem 2rem 0 0;
+}
+
+.s-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 0.5rem 1rem;
+}
+
+.s-content svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.s-content:hover svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.s-content:hover {
+    font-weight: 500;
+}
+
+.s-header-close {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.post-s-header svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.s-header-close:hover svg {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.post-header .post-l1 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post-header .post-l2 {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-header .post-l2 svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.post-header .post-l2:hover svg {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.post-header img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in;
+}
+
+.post-header img:hover {
+    transform: scale(1.2);
+}
+
+.post-header .dn {
+    font-weight: 600;
+}
+
+.post-title {
+    font-size: x-large;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.image-carousel {
+    display: flex;
+    gap: 0.75rem;
+    padding-top: 1rem;
+}
+
+.image-carousel img {
+    width: 14rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.image-carousel img:hover {
+    transform: scale(1.1);
+}
+
+.interactions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.liked-user {
+    font-weight: 600;
+}
+
+.liked-user:hover {
+    color: #0066ff;
+}
+
+.interactions button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.interactions button:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+    color: #0066ff;
+}
+
+.interactions button svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.post-divider-2 {
+    width: 50%;
+    height: 0;
+    margin: 1rem 0;
+}

@@ -1,0 +1,91 @@
+.chat {
+    height: 100%;
+}
+
+.chat-message-list {
+    padding-top: 6rem;
+    overflow-y: auto;
+    height: 46rem;
+    padding-right: 1rem;
+}
+
+.chat-message {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.chat-message.reverse {
+    flex-direction: row-reverse;
+}
+
+.chat-message-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat-message-textbox {
+    width: fit-content;
+    padding: 0.5rem 0.75rem;
+    max-width: 65%;
+    border-radius: 5px;
+    background-color: #8c2fe363;
+}
+
+.chat-message-textbox.user {
+    background-color: #599bff63;
+}
+
+.divider {
+    display: flex;
+    justify-content: end;
+}
+
+.divider hr {
+    width: 70%;
+    height: 0px;
+    border-top: 2px solid #e5e7eb;
+    margin: 1rem 0;
+    margin-right: 6rem;
+}
+
+.send-button {
+    display: flex;
+    justify-content: end;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+
+.send-button textarea {
+    background-color: #f1f0f0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    width: 60%;
+    height: 4rem;
+    overflow: auto;
+}
+
+.send-button button {
+    border: none;
+    padding: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    background-color: #3079e6ea;
+    border-radius: 50%;
+}
+
+.send-button button:hover {
+    background-color: #256fde;
+}
+
+.send-button button svg {
+    color: white;
+    height: 90%;
+    width: 90%;
+}

@@ -1,0 +1,51 @@
+.guider-list-tile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 3rem 0.75rem 0;
+    align-items: center;
+}
+
+.horizontal-tile {
+    display: flex;
+    gap: 1rem;
+}
+
+.horizontal-tile img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.vertical-tile {
+    display: flex;
+    flex-direction: column;
+}
+
+span.highlight {
+    font-weight: 500;
+}
+
+span.normal {
+    font-weight: 300;
+    font-size: small;
+}
+
+.guider-list-tile button {
+    background-color: #599bff63;
+    border: none;
+    border-radius: 25px;
+    padding: 0.25rem 0.75rem;
+    color: white;
+}
+
+.guider-list-tile button.disconnect {
+    background-color: #e8000063;
+}
+
+.guider-list-tile button:hover {
+    background-color: #599bffdf;
+}
+
+.guider-list-tile button.disconnect:hover {
+    background-color: #e80000e2;
+}
