@@ -19,6 +19,7 @@ export const RouteWrapper = ({ Route }) => {
 
     useEffect(() => {
         if (currentUser) {
+            console.log(currentUser.uid);
             if (blacklist.includes(currentUser.uid)) {
                 doSignOut().then(() => {
                     navigate("/login");

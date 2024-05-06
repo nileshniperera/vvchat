@@ -71,7 +71,7 @@ const GuideSeeker = () => {
         await addDoc(messagesCollection, {
             createdAt: serverTimestamp(),
             text: `Hi! I'm ${guider.displayName}, how can I help you?`,
-            photoURL: null,
+            photoURL: guider.user_profile_picture,
             uid: guider.id,
         });
 
