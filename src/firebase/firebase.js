@@ -5,12 +5,12 @@ import { getAnalytics } from "firebase/analytics";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCBqG6ma1j9b_DLjy2zBacNXUl3kj04qXU",
-    authDomain: "vvchat-64ba8.firebaseapp.com",
-    projectId: "vvchat-64ba8",
-    storageBucket: "vvchat-64ba8.appspot.com",
-    messagingSenderId: "332416648460",
-    appId: "1:332416648460:web:56407c884537acedcd3529",
+    apiKey: "AIzaSyB4mwPXZ-SSO1HXgB3iarj4m7paofvetGY",
+    authDomain: "vvchat-3544d.firebaseapp.com",
+    projectId: "vvchat-3544d",
+    storageBucket: "vvchat-3544d.appspot.com",
+    messagingSenderId: "195640033941",
+    appId: "1:195640033941:web:6a80849962589b7358d19c",
 };
 
 const app = initializeApp(firebaseConfig);
